@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 5px;
+    color: #EEE;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+article .main-img {
+    background-image: url("images/buk.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article .box-1 {
+    background-color: #fff;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 30px;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #EEE;
+    border-radius: 30px;
+}
+
+
+footer {
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
